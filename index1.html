@@ -1,0 +1,789 @@
+<div class="row">
+    <div class="col-4">
+      <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link" href="#item-1">Item 1</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+            <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+          </nav>
+          <a class="nav-link" href="#item-2">Item 2</a>
+          <a class="nav-link" href="#item-3">Item 3</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+            <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+          </nav>
+        </nav>
+      </nav>
+    </div>
+  
+    <div class="col-8">
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+        <div id="item-1">
+          <h4>Item 1</h4>
+          <p>...</p>
+        </div>
+        <div id="item-1-1">
+          <h5>Item 1-1</h5>
+          <p>...</p>
+        </div>
+        <div id="item-1-2">
+          <h5>Item 1-2</h5>
+          <p>...</p>
+        </div>
+        <div id="item-2">
+          <h4>Item 2</h4>
+          <p>...</p>
+        </div>
+        <div id="item-3">
+          <h4>Item 3</h4>
+          <p>...</p>
+        </div>
+        <div id="item-3-1">
+          <h5>Item 3-1</h5>
+          <p>...</p>
+        </div>
+        <div id="item-3-2">
+          <h5>Item 3-2</h5>
+          <p>...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me! 20x20</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <style>
+        #navbar {
+          position: sticky;
+          top: 0;
+          z-index: 1000;
+          background-color: #fff; /* Ensure it has a background so content doesn't overlap */
+        }
+      </style>
+  </head>
+  <body  data-bs-spy="scroll" data-bs-target="#navbarDropdown" data-bs-offset="50" tabindex="0">
+    <div class="container-fluid">
+        <header
+          id="navbar"
+          class="container d-flex flex-wrap align-items-center justify-content-between py-3 mb-4 border-bottom"
+        >
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Scrollspy Menu
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#scrollspySlide1">Where did you grow up?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide2">How did you end up here?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide3">What do you like to do in your free time?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide4">What is your favorite music genre?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide5">What is your favorite videogame system?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide6">What are some of your favorite foods?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide7">Most life-changing experience?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide8">Who inspires you/most proud of?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide9">What are your pet peeves?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide10">What is the best event you ever attended?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide11">What are you passionate about?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide12">Favorite movie or TV series?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide13">What is your favorite FAMILY tradition?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide14">If you could visit anywhere in the world, where?</a></li>
+                <li><a class="dropdown-item" href="#scrollspySlide15">Personal, Future Goals?</a></li>
+              </ul>
+            </li>
+            <ul
+            class="nav col-12 col-md-auto mb-2 justify-content-end mb-md-0"
+          >
+            <li>
+                <p class="display-5 fw-normal">Julien Sounketa Ilboudo</p>
+                <p class="lead fw-normal text-sp d-flex justify-content-center">Nicknames: JU, JUJU</p>
+            </li>
+            <!-- Add more navigation links here -->
+          </ul>
+          </ul>
+        </header>
+      </div>
+    <main> 
+      
+      <!-- Full-page slider sections -->
+      <div data-bs-spy="scroll" data-bs-target="#slide" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+        <div class="container-fluid my-5 slide-up" id="#scrollspySlide1">
+            <!-- Add more navigation links here -->
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+              <!-- Slide content here -->
+              <!-- Slide 1: Introduction, Where did you grow up? -->
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                 <h1 class="display-5 fw-bold">Where did you grow up?</h1>
+                  <h1 class="display-4 fw-bold lh-1">Just a kid from THE BRONX</h1>
+                  <p class="lead">It was 5 of us in a 1 bedroom, in the early days! It's funny how as a kid you miss all of the little things </p>
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                    <img class="rounded-lg-3" src="images/julien1.jpg" alt="" height="100%" width="100%">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slide content here -->
+          <!-- Slide 2: How did you end up here?-->
+          <div class=" container-fluid px-4 py-5 my-5 text-center slide-up" id="scrollspySlide2">
+            <h1 class="display-5 fw-bold">How did you end up here?</h1>
+            <p class="lead mb-4">For years I've wanted to get into Tech since I started going to LGuardia Community College. It's so diffcult when there's no one around you that's at your future! Someone to lend a hand and mentor you into the right direction, but we made it happen away.</p>
+            <div id="carouselCustomCards" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <!-- First Slide -->
+                  <div class="carousel-item active">
+                    <div class="container px-4 py-5">
+                      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                        <div class="col">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                                <img src="images/mccabes1.jpg" alt="wine store">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                  <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="d-flex align-items-center me-3">
+                                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                                      <small>Over 7 years I was at McCabes! My last role was Operations Manager.</small>
+                                    </li>  
+                                  </ul>
+                                </div>
+                              </div>
+                        </div>
+              
+                        <div class="col">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                                <img src="images/" alt="hospital">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                  <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="d-flex align-items-center me-3">
+                                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                                      <small>Around June 2023, I was hospitalized because I was having a Sickle Cell Crisis.</small>
+                                    </li>  
+                                  </ul>
+                                </div>
+                              </div>
+                        </div>
+              
+                        <div class="col">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                                <img src="images/bootcamp" alt="">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                  <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="d-flex align-items-center me-3">
+                                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                                      <small>Then in August 2023, I joined a Tech bootcamp gaining a certificate in Quality Assurance. </small>
+                                    </li>  
+                                  </ul>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <!-- Add more carousel slides here for additional cards -->
+                  <div class="carousel-item active">
+                    <div class="container px-4 py-5">
+                      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                        <div class="col">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                                <img src="images/mccabes1.jpg" alt="wine store">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                  <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="d-flex align-items-center me-3">
+                                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                                      <small>Over 7 years I was at McCabes! My last role was Operations Manager.</small>
+                                    </li>  
+                                  </ul>
+                                </div>
+                              </div>
+                        </div>
+              
+                        <div class="col">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                                <img src="images/" alt="hospital">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                  <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="d-flex align-items-center me-3">
+                                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                                      <small>Then in the middle of September 2024, I was hospitalized a 2nd time. This hospitalizaion was way worse and I was recovering for months at home.</small>
+                                    </li>  
+                                  </ul>
+                                </div>
+                              </div>
+                        </div>
+              
+                        <div class="col">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                                <img src="images/linkedin1.jpg" alt="">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                  <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="d-flex align-items-center me-3">
+                                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                                      <small>August 2024, I started my internship at LinkedIn. </small>
+                                    </li>  
+                                  </ul>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Carousel controls -->
+                <button class="carousel-control-prev text" type="button" data-bs-target="#carouselCustomCards" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon bg-black" aria-hidden="false"></span>
+                  <span class="visually-hidden bg-black">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCustomCards" data-bs-slide="next">
+                  <span class="carousel-control-next-icon bg-black" aria-hidden="false"></span>
+                  <span class="visually-hidden bg-black">Next</span>
+                </button>
+              </div>
+          </div>
+
+           <!-- Slide content here -->
+           <!-- Slide 3: What do you like to do in your free time? -->
+          <div class="px-4 py-5 my-5 text-center slide-up" id="scrollspySlide3">
+            <div class="container px-4 py-5" id="icon-grid">
+                <h2 class="pb-2 border-bottom display-5 fw-bold d-flex justify-content-center">What do you like to do in your free time?</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">Go to the Gym.</h3>
+                      <p>Going to the gym has really helped with my mental clarity and overall health. As someone with a health condition, being active can be diffcult but it's worth it.</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">Go for a walk and listen to music.</h3>
+                      <p>Long walks around the city!</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">Watch/Listen to podcasts.</h3>
+                      <p>Some of my favorite podcasts are The Millionare Morning Show, Lex Friedman, and </p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">Can't forget about Anime</h3>
+                      <p>I'm currently watching . What anime are you currently watching or preparing to watch? </p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">Chill</h3>
+                      <p>I can lay under the covers in a cold room and watch anything that I'm interested in that particular moment and just chill!</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">Always up for an Adventure!</h3>
+                      <p>Growing up, I wasn't taking trips or even just going out and seeing what's the city like. As I've gotten older, I want to experience and see as much things as I can.</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
+                      <p>Paragraph of text beneath the heading to explain the heading.</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
+                      <p>Paragraph of text beneath the heading to explain the heading.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- Slide content here -->
+           <!-- Slide 4: What is your favorite music? -->
+          <div class="px-4 py-5 my-5 text-center slide-up" id="scrollspySlide4">
+            <img src="https://media.npr.org/assets/img/2023/07/28/gettyimages-155394693-resize_wide-d3f06048b6776cd9595d24c4a6da5eee49170492.jpg?s=1400&c=100&f=jpeg" alt="Music">
+            <div class="col-lg-6 mx-auto text-block1">
+                <h1 class="display-5 fw-bold">What is your favorite music?</h1>
+            </div>
+            <ul >
+                <li class="fw-bold">Afrobeats</li>
+                <li class="fw-bold">Dancehall/Reggae</li>
+                <li class="fw-bold">Hip Hop/Rap</li>
+                <li class="fw-bold">Francophone</li>
+                <li class="fw-bold">Rock</li>
+              </ul>
+          </div>
+
+          <!-- Slide content here -->
+          <!-- Slide 5: What is your favorite videgame system? -->
+          <div class="px-4 py-5 my-5 text-center slide-up" id="scrollspySlide5">
+             <img src="" alt="">
+             <div class="col-lg-6 mx-auto text-block2">
+                <h1 class="display-5 fw-bold">What is your favorite videgame system?</h1>
+            </div>
+          </div>
+
+          <!-- Slide content here -->
+          <!-- Slide 6: What are some of your favorite foods? -->
+          <div class="px-4 py-5 my-5 text-center slide-up" id="scrollspySlide6">
+             <img src="" alt="">
+             <h1 class="display-5 fw-bold pb-5">What are some of your favorite foods?</h1>
+             <div class="row">
+                <div class="col-lg-4">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                  <h2 class="fw-normal">Oxtail with rice and peas</h2>
+                  <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          
+                  <h2 class="fw-normal">Attiecke with Fish</h2>
+                  <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          
+                  <h2 class="fw-normal">Beef patty with coco bread</h2>
+                  <p>And lastly this, the third column of representative placeholder content.</p>
+                </div><!-- /.col-lg-4 -->
+              </div>
+          </div>
+
+          <!-- Slide content here -->
+
+          <div class="px-4 py-5 my-5 text-center slide-up" id="slide7">
+             <img src="https://waite0603.github.io/Resume-vCard-Collection/Web/34/static/picture/testimonials.jpg" alt="">
+          </div>
+          
+
+          <!-- Divider -->
+          <!-- <div class="b-example-divider container-fluid"></div> -->
+ 
+         
+
+         <!-- Slide 6: Most life changing experience -->
+ 
+        <h2 class="pb-2 border-bottom display-5 fw-bold d-flex justify-content-center">What is your favorite videogame system?</h2>
+         <div class="slide" id="slide6">
+            <div class="card" style="width: 18rem;">
+                <img src="images/ps2" class="card-img-top" alt="Playstation 2">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+         </div>
+
+          <!-- Divider -->
+          <div class="b-example-divider container-fluid"></div>
+ 
+         <!-- Slide 7: Favorite music -->
+         <div class="slide" id="scrollspySlide7">
+           <h2>What is your favorite music?</h2>
+           <p>
+             Afrobeats, Hip Hop/Rap, Dancehall, Rock, Francophone, All Genres
+           </p>
+         </div>
+          <!-- Divider -->
+          <div class="b-example-divider container-fluid"></div>
+ 
+         <!-- Slide 8: Who inspires you/most proud of? -->
+         <div class="slide" id="slide8">
+           <h2>Who inspires you/most proud of?</h2>
+           <p>
+             My little sister has inspired me to go back to college and finish
+             out my last 2 years to receive my Bachelors Degree.
+           </p>
+         </div>
+          <!-- Divider -->
+          <div class="b-example-divider container-fluid"></div>
+ 
+         <!-- Slide 9: Pet peeves -->
+         <div class="slide" id="slide9">
+           <h2>What are your pet peeves?</h2>
+           <p>...</p>
+         </div>
+          <!-- Divider -->
+          <div class="b-example-divider container-fluid"></div>
+ 
+         <!-- Slide 10: Best event attended -->
+         <div class="slide" id="slide10">
+           <h2>What is the best event you ever attended?</h2>
+           <p>My cousin's wedding!</p>
+         </div>
+ 
+         <!-- Slide 11: Passions -->
+         <div class="slide" id="slide11">
+           <h2>What are you passionate about?</h2>
+           <p>Sickle Cell/Health & Fitness</p>
+         </div>
+ 
+         <!-- Slide 12: Favorite book(s) -->
+         <div class="slide" id="slide12">
+           <h2>Favorite book(s)?</h2>
+           <p>TBD</p>
+         </div>
+ 
+         <!-- Slide 13: Favorite movie or TV series -->
+         <div class="slide" id="slide13">
+           <h2>Favorite movie or TV series?</h2>
+           <p>...</p>
+         </div>
+ 
+         <!-- Slide 14: Best meal -->
+         <div class="slide" id="slide14">
+           <h2>What’s the best meal you’ve ever had?</h2>
+           <p>TBD</p>
+         </div>
+ 
+         <!-- Slide 15: Favorite family tradition -->
+         <div class="slide" id="slide15">
+           <h2>What is your favorite family tradition?</h2>
+           <p>King’s Ceremony, that I’ve never attended!!! Burkina Faso</p>
+         </div>
+ 
+         <!-- Slide 16: Dream travel destination -->
+         <div class="slide" id="slide16">
+           <h2>If you could visit anywhere in the world, where?</h2>
+           <p>...</p>
+         </div>
+ 
+         <!-- Slide 17: Favorite superhero -->
+         <div class="slide" id="slide17">
+           <h2>Who is your favorite superhero?</h2>
+           <p>TBD</p>
+         </div>
+ 
+         <!-- Slide 18: Personal future goals -->
+         <div class="slide" id="slide18">
+           <h2>Personal Future Goals!</h2>
+           <p>...</p>
+         </div>
+ 
+         <!-- Slide 19: ... -->
+         <div class="slide" id="slide19">
+           <h2>...</h2>
+           <p>...</p>
+         </div>
+ 
+         <!-- Slide 20: ... -->
+         <div class="slide" id="slide20">
+           <h2>...</h2>
+           <p>...</p>
+         </div>
+       </div>
+       <!-- Progress bar -->
+        <!-- <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div> -->
+       
+      </div>
+      <div class="vlt-fullpage-slider-progress-bar ">
+        <span style="transform: scaleY(0.125)"></span>
+    </div>
+   
+    </main>
+    <footer></footer>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const slides = document.querySelectorAll('.slide-up');
+  
+      function checkScroll() {
+        slides.forEach(slide => {
+          const slidePosition = slide.getBoundingClientRect().top;
+          const windowHeight = window.innerHeight;
+          
+          // When the top of the section is visible
+          if (slidePosition < windowHeight - 100) {
+            slide.classList.add('active');
+          }
+        });
+      }
+  
+      // Check scroll position on load and on scroll
+      window.addEventListener('scroll', checkScroll);
+      checkScroll(); // Initial check when the page loads
+    });
+  </script>
+  
+</html>
+
+
+
+<div id="myCarousel" class="carousel slide px-5" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      
+      <div class="container">
+        <div class="carousel-caption text-start">
+          <h1>Example headline.</h1>
+          <p>Some representative placeholder content for the first slide of the carousel.</p>
+          <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Another example headline.</h1>
+          <p>Some representative placeholder content for the second slide of the carousel.</p>
+          <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item active">
+      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>One more for good measure.</h1>
+          <p>Some representative placeholder content for the third slide of this carousel.</p>
+          <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+      <h2 class="fw-normal">Heading</h2>
+      <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+      <h2 class="fw-normal">Heading</h2>
+      <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+      <h2 class="fw-normal">Heading</h2>
+      <p>And lastly this, the third column of representative placeholder content.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+
+  <!-- START THE FEATURETTES -->
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+      <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+    </div>
+    <div class="col-md-5">
+      <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+      <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+      <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+      <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+    </div>
+    <div class="col-md-5">
+      <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <!-- /END THE FEATURETTES -->
+
+
+  
+  <h1 class="display-5 fw-bold d-flex justify-content-center mt-5 pb-3">How did you end up here?</h1>
+  <p class="lead mb-4 d-flex justify-content-center container-fluid">For years I've wanted to get into Tech since I started going to LGuardia Community College. 
+  <p class="lead mb-4 d-flex justify-content-center container-fluid">It's so diffcult when there's no one around you that's at your future!</p>
+  <p class="lead mb-4 d-flex justify-content-center container-fluid">Someone to lend a hand and mentor you into the right direction, but we made it happen away.</p>
+  <div id="carouselCustomCards" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- First Slide -->
+        <div class="carousel-item active">
+          <div class="container px-4 py-5">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                      <img src="images/mccabes1.jpg" alt="wine store">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                            <small>Over 7 years I was at McCabes! My last role was Operations Manager.</small>
+                          </li>  
+                        </ul>
+                      </div>
+                    </div>
+              </div>
+    
+              <div class="col">
+                  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                      <img src="images/" alt="hospital">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                            <small>Around June 2023, I was hospitalized because I was having a Sickle Cell Crisis.</small>
+                          </li>  
+                        </ul>
+                      </div>
+                    </div>
+              </div>
+    
+              <div class="col">
+                  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                      <img src="images/bootcamp" alt="">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                            <small>Then in August 2023, I joined a Tech bootcamp gaining a certificate in Quality Assurance. </small>
+                          </li>  
+                        </ul>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Add more carousel slides here for additional cards -->
+        <div class="carousel-item active">
+          <div class="container px-4 py-5">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                      <img src="images/mccabes1.jpg" alt="wine store">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                            <small>Over 7 years I was at McCabes! My last role was Operations Manager.</small>
+                          </li>  
+                        </ul>
+                      </div>
+                    </div>
+              </div>
+    
+              <div class="col">
+                  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                      <img src="images/" alt="hospital">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                            <small>Then in the middle of September 2024, I was hospitalized a 2nd time. This hospitalizaion was way worse and I was recovering for months at home.</small>
+                          </li>  
+                        </ul>
+                      </div>
+                    </div>
+              </div>
+    
+              <div class="col">
+                  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                      <img src="images/linkedin1.jpg" alt="">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                            <small>August 2024, I started my internship at LinkedIn. </small>
+                          </li>  
+                        </ul>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Carousel controls -->
+      <button class="carousel-control-prev text" type="button" data-bs-target="#carouselCustomCards" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-black" aria-hidden="false"></span>
+        <span class="visually-hidden bg-black">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselCustomCards" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-black" aria-hidden="false"></span>
+        <span class="visually-hidden bg-black">Next</span>
+      </button>
+    </div>
