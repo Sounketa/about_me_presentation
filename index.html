@@ -8,67 +8,14 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
-   
-    <style>
-        .bd-placeholder-img {
-          font-size: 1.125rem;
-          text-anchor: middle;
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          user-select: none;
-        }
-  
-        @media (min-width: 768px) {
-          .bd-placeholder-img-lg {
-            font-size: 3.5rem;
-          }
-        }
-  
-        .b-example-divider {
-          height: 3rem;
-          background-color: rgba(0, 0, 0, .1);
-          border: solid rgba(0, 0, 0, .15);
-          border-width: 1px 0;
-          box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-        }
-  
-        .b-example-vr {
-          flex-shrink: 0;
-          width: 1.5rem;
-          height: 100vh;
-        }
-  
-        .bi {
-          vertical-align: -.125em;
-          fill: currentColor;
-        }
-  
-        .nav-scroller {
-          position: relative;
-          z-index: 2;
-          height: 2.75rem;
-          overflow-y: hidden;
-        }
-  
-        .nav-scroller .nav {
-          display: flex;
-          flex-wrap: nowrap;
-          padding-bottom: 1rem;
-          margin-top: -1px;
-          overflow-x: auto;
-          text-align: center;
-          white-space: nowrap;
-          -webkit-overflow-scrolling: touch;
-        }
-      </style>
     <link href="carousel.css" rel="stylesheet">
   </head>
-  <body class="">
-    <div>
+  <body class="container">
+    <div class="d-flex justify-content-center">
       <header
-        class="container  py-3 mb-4 border-bottom"
+        class="py-3 mb-4 border-bottom"
       >
-        <ul class="nav justify-content-center">
+        <ul class="nav ">
           <li class="nav-item">
             <p class="display-5 fw-normal">Julien Sounketa Ilboudo</p>
             <p class="lead fw-normal text-sp d-flex justify-content-center">
@@ -114,7 +61,7 @@
     
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-              <img src="images/hospital1" alt="hospital">
+              <img src="images/hospital1" alt="hospital" style="width: 133%;">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="d-flex align-items-center me-3">
@@ -128,7 +75,7 @@
     
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-              <img src="images/bootcamp" alt="">
+              <img src="images/bootcamp" alt="" style="width: 133%;">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="d-flex align-items-center me-3">
@@ -141,6 +88,7 @@
           </div>
         </div>
       </div>
+      
      <!-- Slide 2: How did you end up here? Part2-->
      <div class="container px-4" id="custom-cards">
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
@@ -160,12 +108,43 @@
   
         <div class="col">
           <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzyH3sbbj_hA-Zhdk4ATAKSmUTtaI6G1gjRg&s" alt="hospital">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzyH3sbbj_hA-Zhdk4ATAKSmUTtaI6G1gjRg&s" alt="hospital" style="width: 133%;">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <ul class="d-flex list-unstyled mt-auto">
                 <li class="d-flex align-items-center me-3">
                   <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
                   <small>Then in the middle of September 2024, I was hospitalized a 2nd time. This hospitalizaion was way worse and I was recovering for months at home.</small>
+                </li>  
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+            <img src="images/year-up2.JPG" alt="">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                  <small> Started Year Up in March.</small>
+                </li>  
+              </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container px-4" id="custom-cards"></div>
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+            <img src="images/year-up3.JPG" alt="wine store">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                  <small>This was our 2nd in-person meet up.</small>
                 </li>  
               </ul>
             </div>
@@ -234,20 +213,6 @@
                 <p>Growing up, I wasn't taking trips or even just going out and seeing what's the city like. As I've gotten older, I want to experience and see as much things as I can.</p>
               </div>
             </div>
-            <div class="col d-flex align-items-start">
-              <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
-              <div>
-                <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
-              </div>
-            </div>
-            <div class="col d-flex align-items-start">
-              <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
-              <div>
-                <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
-              </div>
-            </div>
           </div>
         </div>
     </div>
@@ -257,12 +222,12 @@
     <div class="card text-bg-dark">
   <img src="https://media.npr.org/assets/img/2023/07/28/gettyimages-155394693-resize_wide-d3f06048b6776cd9595d24c4a6da5eee49170492.jpg?s=1400&c=100&f=jpeg" alt="Music" class="container-fluid"" class="card-img" alt="...">
   <div class="card-img-overlay">
-    <h5 class="card-title text-muted">Afrobeats</h5>
-    <h5 class="card-title text-muted">Dancehall/Reggae</h5>
-    <h5 class="card-title text-muted">HipHop/Rap</h5>
-    <h5 class="card-title text-muted">Francophone</h5>
-    <h5 class="card-title text-muted">Rock</h5>
-    <h5 class="card-title text-muted">Most Genres</h5>
+    <h5 class="card-title text-light">Afrobeats</h5>
+    <h5 class="card-title text-light">Dancehall/Reggae</h5>
+    <h5 class="card-title text-light">HipHop/Rap</h5>
+    <h5 class="card-title text-light">Francophone</h5>
+    <h5 class="card-title text-light">Rock</h5>
+    <h5 class="card-title text-light">Most Genres</h5>
   </div>
 </div>
 
@@ -279,7 +244,7 @@
   </div>
 
   <!-- Slide 6: What are some of your favorite foods? -->
- <h1 class="display-5 fw-bold pb-5">What are some of your favorite foods?</h1>
+ <h1 class="display-5 fw-bold pb-5 d-flex justify-content-center">What are some of your favorite foods?</h1>
  <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
   <div class="col">
     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
@@ -311,7 +276,7 @@
 
   <div class="col">
     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbn3AklXbYHhzOqCEqqnMxxfmUtKV-EIX78A&s" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbn3AklXbYHhzOqCEqqnMxxfmUtKV-EIX78A&s" alt="" style="height: 80%;">
       <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
         <ul class="d-flex list-unstyled mt-auto">
           <li class="d-flex align-items-center me-3">
@@ -342,8 +307,8 @@
 
  <!-- Slide 8: Who inspires you/most proud of? -->
  <h1 class="display-5 fw-bold pb-5 d-flex justify-content-center pt-5">Who inspires you/most proud of?</h1>
-  <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 d-flex justify-content-center container">
-    <div class="col">
+  <div class=" displayrow row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 d-flex justify-content-center container">
+    <div class="col d-flex justify-content-center">
       <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
         <img src="images/sis1.jpg" alt="">
         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
@@ -441,25 +406,15 @@
 </div>
 
 <!-- Slide 13: Best event attended -->
+ 
 <h1 class="display-5 fw-bold pb-5 d-flex justify-content-center pt-5 pb-5 py-5 mt-5">What is your favorite family tradition?</h1>
-<div class="card-group container">
-  <div class="card">
-    <img src="images/uncle1.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">My cousin's Wedding</h5>
-    </div>
+<div class="row featurette">
+  <div class="col-md-7 order-md-2">
+    <h2 class="featurette-heading fw-normal lh-1">King's Ceremony</h2>
+    <p class="lead text-dark text-bold">My uncle was made King of the village after my grandfather who passed away 2 years ago.</p>
   </div>
-  <div class="card">
-    <img src="images/burkina.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">August 2023</h5>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/burkina2.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">August 2023</h5>
-    </div>
+  <div class="col-md-5 order-md-1">
+    <img src="images/uncle1.jpg" alt="" style="height: 90%; width: 90%;">
   </div>
 </div>
 
@@ -502,28 +457,31 @@
   </div>
 </div>
 
-<img src="images/tech-bro.jpg" alt="">
-<img src="images/retire.jpg" alt="">
-<img src="images/jump-plane.jpg" alt="">
-<img src="images/cessna.jpg" alt="">
-
-
+<h1 class="display-5 fw-bold pb-5 d-flex justify-content-center pt-5 pb-5 py-5 mt-5">Personal, future goals?</h1>
+ <div class="scroll-container">
+  <img src="https://uop.scene7.com/is/image/phoenixedu/data-analyst-working-with-financial-data-on-computer-in-office-704x421.webp?fmt=webp-alpha&qlt=70&fit=constrain,1&wid=704" alt="" style="width: 50%; height: 90%;">
+  <img src="https://www.fuchsfinancial.com/wp-content/uploads/2024/03/Screenshot-2024-03-28-164029.png" alt="" style="width: 45%;">
+  <img src="https://skydivemonroe.com/wp-content/uploads/experienced-skydiver-flying-head-down-3.jpg" alt="" style="width: 41%;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Cessna_150M_%28cropped%29.jpg" alt="" style="width: 50%;">
+</div>
     </main>
      <!-- FOOTER -->
-     <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>© 2017–2022 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-    </footer>
+     <div class="container">
+      <footer class="py-3 my-4">
+        <p class="float-end"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="dark" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5m-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5"/>
+        </svg></a></p>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-dark">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-dark">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-dark">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-dark">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-dark">About</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2022 Company, Inc</p>
+      </footer>
+    </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
 
-<!-- image overall, text over image
-<div class="card text-bg-dark">
-  <img src="..." class="card-img" alt="...">
-  <div class="card-img-overlay">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text"><small>Last updated 3 mins ago</small></p>
-  </div>
-</div> -->
